@@ -9,9 +9,9 @@ ServerPort=6020
 #mysql configs
 MysqlPort=3306
 MysqlHost=127.0.0.1
-MysqlSchema=blog
-MysqlUsername=blog
-MysqlPassword=blog123
+MysqlSchema=byblog
+MysqlUsername=root
+MysqlPassword=123456
 MysqlUrl="jdbc:mysql://$MysqlHost:$MysqlPort/$MysqlSchema?useUnicode=true&characterEncoding=UTF-8&useSSL=false"
 #tank configs
 TankUrl="https://tank.eyeblue.cn"
