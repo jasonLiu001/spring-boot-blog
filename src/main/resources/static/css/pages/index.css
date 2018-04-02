@@ -1,0 +1,279 @@
+.section-navigation {
+  border-bottom: 1px solid #eeeeee;
+  background: white;
+  height: 60px;
+}
+.section-navigation .logo {
+  height: 60px;
+}
+.section-navigation .site-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+  margin-left: 15px;
+  vertical-align: middle;
+  line-height: 60px;
+}
+.section-navigation .menus {
+  float: right;
+}
+.section-navigation .menus a {
+  display: inline-block;
+  line-height: 60px;
+  height: 60px;
+  font-size: 16px;
+  color: #555;
+  margin-left: 15px;
+}
+.section-navigation .menus a:hover {
+  color: #23B7E5;
+  border-bottom: 2px solid #23B7E5;
+}
+@media (min-width: 992px) {
+  .section-body .page-inner-container {
+    background: white;
+    margin: 40px 0 110px 0;
+  }
+}
+@media (max-width: 992px) {
+  .section-body .page-inner-container {
+    margin: 10px 0 80px 0;
+  }
+}
+.container .menuExpand > ul {
+  list-style: none;
+  padding: 0;
+  background: #fff;
+}
+.container .menuExpand > ul > li {
+  border-bottom: 1px solid #eeeeee;
+  font-size: 15px;
+}
+.container .menuExpand > ul > li > a {
+  height: 40px;
+  line-height: 40px;
+  color: #2b2b2b;
+  display: block;
+  padding: 0 20px;
+}
+.container .menuExpand > ul > li > a:hover {
+  color: #fff !important;
+  background: #23B7E5;
+}
+.container [data-expanding-show="false"] {
+  display: none;
+}
+.section-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #eeeeee;
+  box-sizing: border-box;
+  background: white;
+  text-align: center;
+  padding: 15px 0;
+}
+.page-article-detail {
+  background: white;
+  padding: 20px 0;
+  border-radius: 4px;
+}
+.page-article-detail .article-title {
+  word-break: break-all;
+  margin: 20px 0;
+  font-size: 28px;
+  color: black;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.page-article-detail .article-title .edit-icon {
+  visibility: hidden;
+}
+.page-article-detail .article-title:hover .edit-icon {
+  visibility: visible;
+}
+.page-article-detail .article-info {
+  border-top: 1px solid #eeeeee;
+  padding-top: 20px;
+}
+.page-article-detail .article-info .author a {
+  font-size: 20px;
+  color: #555;
+}
+.page-article-detail .article-info .author a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+.page-article-detail .article-content {
+  margin-top: 40px;
+  padding: 0 !important;
+  overflow: hidden;
+}
+.page-article-detail .article-content img {
+  max-width: 100%;
+  text-align: center;
+}
+.page-article-detail #interactive-area {
+  margin-top: 20px;
+}
+.page-article-detail #interactive-area .article-appendix {
+  padding: 20px 0 40px 0;
+  border-top: 1px solid #eee;
+}
+.page-article-detail #interactive-area .inter-btn {
+  color: #888;
+  margin-right: 10px;
+}
+.page-article-detail #interactive-area .inter-btn:hover {
+  color: black;
+}
+.page-article-detail #interactive-area .title-area {
+  padding: 10px 0;
+}
+.page-article-detail #interactive-area .title-area .total {
+  font-weight: bold;
+  font-size: 18px;
+}
+.page-article-detail #interactive-area .tree-area .cell-area {
+  border-top: 1px solid #eeeeee;
+  padding: 15px 0;
+}
+.page-article-detail #interactive-area .tree-area .cell-area .reply-area {
+  border-left: 4px solid #eeeeee;
+  padding-left: 20px;
+}
+.page-article-detail #interactive-area .tree-area .cell-area .reply-area .sub-cell-area {
+  padding: 15px 0;
+  border-top: 1px solid #eeeeee;
+}
+.page-article-detail #interactive-area .tree-area .cell-area .reply-area .sub-cell-area:first-child {
+  border-top: none;
+  margin-top: 15px;
+}
+.page-article-detail #interactive-area .pager-area {
+  margin-top: 10px;
+}
+.page-user-detail {
+  background: white;
+  padding: 20px 0;
+  border-radius: 4px;
+}
+.article-cell {
+  border-bottom: 1px solid #eeeeee;
+  padding: 20px 0 10px 0;
+}
+.article-cell .author-name {
+  color: #555;
+}
+.article-cell .author-name:hover {
+  color: #000;
+  text-decoration: underline;
+}
+.article-cell .title {
+  margin-bottom: 10px;
+}
+.article-cell .title a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}
+.article-cell .title a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+.article-cell .digest {
+  margin-bottom: 10px;
+}
+.achievement-cell {
+  margin: 5px 0;
+}
+.achievement-cell i {
+  width: 20px;
+  font-size: 18px;
+  color: #bdcadb;
+}
+.achievement-cell span {
+  color: #555;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.hot-article {
+  margin: 10px 0;
+  color: #8590a6;
+}
+.hot-article a {
+  color: #175199;
+  font-size: 14px;
+}
+.hot-article a:hover {
+  text-decoration: underline;
+}
+.tag-collection {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  padding: 0 5px 0 0;
+  height: 16px;
+  background-color: #f7f7f7;
+  border: 1px solid #dcdcdc;
+  color: #333;
+  border-radius: 8px 2px 2px 8px;
+  vertical-align: top;
+  overflow: hidden;
+  box-sizing: content-box;
+}
+.tag-collection:hover {
+  color: #23B7E5;
+}
+.tag-collection img {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  vertical-align: top;
+}
+.tag-collection .name {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 15px;
+  vertical-align: top;
+}
+.tag-collection.lg {
+  height: 24px;
+  border-radius: 12px 2px 2px 12px;
+}
+.tag-collection.lg img {
+  width: 24px;
+  height: 24px;
+}
+.tag-collection.lg .name {
+  font-size: 16px;
+  line-height: 23px;
+}
+.tag-collection.active {
+  background-color: #23B7E5;
+  border: 1px solid #1ab394;
+  color: white;
+}
+.tag-collection.active:hover {
+  background-color: #1797be;
+}
+.nb-comment-panel-area {
+  padding: 20px;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  background: #f9f9f9;
+}
+.nb-report-panel-area {
+  padding: 20px;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  background: #f9f9f9;
+}
+.page-index {
+  background: white;
+  border-radius: 4px;
+}
+.page-index .hot-area {
+  padding: 15px;
+}
