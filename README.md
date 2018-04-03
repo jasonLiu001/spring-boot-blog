@@ -1,12 +1,5 @@
-![蓝眼博客logo](https://github.com/eyebluecn/blog/blob/master/src/main/resources/static/img/logo.png?raw=true)
-
-# 蓝眼博客
-
-##### [在线Demo](http://blog.eyeblue.cn)
-
-##### [配套前端blog-front](https://github.com/eyebluecn/blog-front)
-
 ### 简介
+程序基于[蓝眼博客](https://github.com/eyebluecn)，为蓝眼博客打个广告
 蓝眼博客是 [蓝眼系列开源软件](https://github.com/eyebluecn) 中的第二个
 
 - 可用于快速搭建个人博客。
@@ -15,7 +8,8 @@
 
 蓝眼博客力求小而精，可以作为团队内部或个人私有的博客使用，同时也可作为学习资源使用。
 
-如果您觉得蓝眼博客对您有帮助，请不要吝惜您的star :smile:
+### 项目源码阅读
+建议使用Idea，同时安装[lombok插件](https://github.com/mplushnikov/lombok-intellij-plugin/releases)
 
 ### 使用安装包安装
 
@@ -131,19 +125,8 @@ cd 应用目录路径
 
 利用得到的安装包即可参考上文的`使用安装包安装`。
 
-
-### 文档
-
-正在完善中...
-
-### Contribution
-
-感谢所有蓝眼博客的贡献者 [@zicla](https://github.com/zicla)，[@seaheart](https://github.com/seaheart)，[@yemuhe](https://github.com/yemuhe)，[@hxsherry](https://github.com/hxsherry)
-
 如果您也想参与进来，请尽情的fork, star, post issue, pull requests
 
 ### License
 
 [MIT](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2017-present, eyeblue.cn
